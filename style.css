@@ -20,6 +20,28 @@ header {
     text-align: center;
 }
 
+@keyframes rainbowWave {
+    0% {
+        transform: translateX(0);
+        color: violet;
+    }
+    20% {
+        color: indigo;
+    }
+    40% {
+        color: blue;
+    }
+    60% {
+        color: green;
+    }
+    80% {
+        color: yellow;
+    }
+    100% {
+        transform: translateX(100%);
+        color: red;
+    }
+}
 /* Style the main content area */
 main {
     max-width: 800px;
