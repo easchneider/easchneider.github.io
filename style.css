@@ -10,7 +10,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    animation: rainbowWave 5s linear infinite;
+    
 }
 
 /* Style the header */
@@ -19,6 +19,7 @@ header {
     color: #ecf0f1;
     padding: 1em;
     text-align: center;
+    animation: rainbowWave 5s linear infinite;
 }
 
 @keyframes rainbowWave {
