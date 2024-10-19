@@ -10,6 +10,9 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     
 }
 
@@ -20,6 +23,7 @@ header {
     padding: 1em;
     text-align: center;
     animation: rainbowWave 5s linear infinite;
+
 }
 
 @keyframes rainbowWave {
@@ -50,7 +54,7 @@ header {
 /* Style the main content area */
 main {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 15vh auto;
     padding: 20px;
 }
 
@@ -66,6 +70,7 @@ footer {
     padding: 1em;
     margin-top: auto;
     text-align: center;
+    min-height: 36px;
 }
 
 /* Add some basic styling to links */
