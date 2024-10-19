@@ -19,8 +19,8 @@ header {
     color: #ecf0f1;
     padding: 1em;
     text-align: center;
-    /* animation: rainbowWave 5s linear infinite; */
-    min-height: 100vh;
+    animation: rainbowWave 5s linear infinite;
+    
     display: flex;
     flex-direction: column;
 }
