@@ -54,7 +54,7 @@ header {
 /* Style the main content area */
 main {
     max-width: 800px;
-    margin: 15vh auto;
+    margin: 10vw auto 12px auto;
     padding: 20px;
 }
 
