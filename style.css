@@ -19,7 +19,7 @@ header {
     color: #ecf0f1;
     padding: 1em;
     text-align: center;
-    animation: rainbowWave 5s linear infinite;
+    /* animation: rainbowWave 5s linear infinite; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
