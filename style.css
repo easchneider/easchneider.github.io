@@ -24,7 +24,7 @@ header {
 
 @keyframes rainbowWave {
     0% {
-        transform: translateX(-100%);
+        /*transform: translateX(-100%); */
         color: violet;
     }
     20% {
@@ -34,7 +34,7 @@ header {
         color: blue;
     }
     50% {
-        transform: translateX(100%);
+        /*transform: translateX(100%); */
     }
     60% {
         color: green;
@@ -43,7 +43,7 @@ header {
         color: yellow;
     }
     100% {
-        transform: translateX(-100%);
+        /*transform: translateX(-100%); */
         color: red;
     }
 }
